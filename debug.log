@@ -3,3 +3,4 @@
 [0825/101456.818:ERROR:registration_protocol_win.cc(106)] CreateFile: Det går inte att hitta filen. (0x2)
 [0825/124446.521:ERROR:registration_protocol_win.cc(106)] CreateFile: Det går inte att hitta filen. (0x2)
 [0825/124634.001:ERROR:registration_protocol_win.cc(106)] CreateFile: Det går inte att hitta filen. (0x2)
+[0825/150918.894:ERROR:registration_protocol_win.cc(106)] CreateFile: Det går inte att hitta filen. (0x2)
