@@ -1,7 +1,16 @@
+body {
+    background-color:rgb(50, 50, 50);
+    color:lightgray;
+}
+
+h1 {
+    position:relative;
+    width:100%;
+    text-align: center;
+}
+
 p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:blanchedalmond;
-    background-color:rgb(43, 43, 43)
 }
 
 h1 {
