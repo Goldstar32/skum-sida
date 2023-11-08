@@ -1,24 +1,31 @@
+:root {
+  --bgCol: #f5f5dc;
+  --fgCol: #d3d3ba;
+  --detCol: #a50000;
+  --textCol: #000000;
+}
+
 .start {
-  background-color: rgb(50, 50, 50);
-    color: lightgray;
+  background-color: var(--bgCol);
+    color: var(--textCol);
     font-family: 'Times New Roman', Times, serif;
     margin: 0; /* Removes margin for entire page (to remove space between edges and navbar) */
 }
 
 .start a {
-  color: rgb(76, 138, 255);
+  color: var(--detCol);
   text-decoration: none;
 }
 
 .article {
-  background-color: rgb(50, 50, 50);
-    color:lightgray;
+  background-color: var(--bgCol);
+    color: var(--textCol);
     font-family:'Times New Roman', Times, serif;
     margin: 0; /* Removes margin for entire page (to remove space between edges and navbar) */
 }
 
 .article a {
-  color:rgb(76, 138, 255);
+  color: var(--detCol);
   text-decoration: none;
 }
 
@@ -40,13 +47,13 @@
 /* The navigation bar */
 .navbar {
   overflow: hidden;
-  background-color: #222;
+  background-color: var(--fgCol);
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
   border: 0px;
   border-bottom: 5px;
-  border-color: #f2f2f2;
+  border-color: var(--detCol);
   border-style: solid;
   z-index: 1;
 }
@@ -55,16 +62,17 @@
 .navbar a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: var(--detCol);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-weight: bold;
 }
 
 /* Change background on mouse-over */
 .navbar a:hover {
-  background: #ddd;
-  color: black;
+  background: var(--detCol);
+  color: var(--fgCol);
 }
 
 /* Main content */
