@@ -83,75 +83,65 @@
 
 /* Main content */
 .main {
-  margin-top: 60px; /* Add a top margin to avoid content overlay with navbar*/
+  margin-top: 8vw; /* Add a top margin to avoid content overlay with navbar*/
+  margin-left: 7%;
+  margin-right: 7%;
 }
 
 @media (width < 1000px){
-  .header {
-    position: relative;
-    width: 100%;
-    text-align: center;
-    font-size: 8vw;
-  }
-  
-  .bread {
-    margin-left: 7%;
-    margin-right: 7%;
-  }
-  .bread h2 {
-    font-size: 3.5vw;
-  }
-  .bread p, a {
-    font-size: 2.5vw;
-  }
-
   /* The navigation bar */
   .navbar {
     border-bottom: 0.7vw;
     border-color: var(--detCol);
     border-style: solid;
   }
+  
+  .main {
+    margin-top: 8vw; /* Add a top margin to avoid content overlay with navbar*/
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+  .main h2 {
+    font-size: 3.5vw;
+  }
+  .main p, a {
+    font-size: 2.5vw;
+  }
 }
 
 @media (width < 700px){
-  .header {
-    position: relative;
-    width: 100%;
-    text-align: center;
-    font-size: 10vw;
-  }
-  
-  .bread {
-    margin-left: 1%;
-    margin-right: 1%;
-  }
-  .bread h2 {
-    font-size: 5.5vw;
-  }
-  .bread p, a {
-    font-size: 4vw;
-  }
-
   /* The navigation bar */
   .navbar {
     border-bottom: 1vw;
     border-color: var(--detCol);
     border-style: solid;
   }
+  
+  .main {
+    margin-top: 8vw; /* Add a top margin to avoid content overlay with navbar*/
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+  .main h2 {
+    font-size: 5.5vw;
+  }
+  .main p, a {
+    font-size: 4vw;
+  }
 }
 
 @media (width < 400px){
-  .bread h2 {
-    font-size: 8vw;
-  }
-  .bread p, a {
-    font-size: 6vw;
-  }
-
   /* The navigation bar */
   .navbar {
     border-bottom: 1.5vw;
     border-color: var(--detCol);
     border-style: solid;
+  }
+  
+  .main h2 {
+    font-size: 8vw;
+  }
+  .main p, a {
+    font-size: 6vw;
   }
 }
